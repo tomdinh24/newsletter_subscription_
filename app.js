@@ -51,7 +51,7 @@ app.post("/", function(req, res) {
     const jsonData = JSON.stringify(data);
 
     // url of the list subscriber want to go into
-    const url = "https://us18.api.mailchimp.com/3.0/lists/yourID;
+    const url = "https://us18.api.mailchimp.com/3.0/lists/yourID";
 
     // pass through auth
     const options = {
